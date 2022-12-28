@@ -1,0 +1,52 @@
+{
+  "candidates": [
+    {
+      "id": 1,
+      "name": "John Smith"
+    },
+    {
+      "id": 2,
+      "name": "Jane Doe"
+    },
+    {
+      "id": 3,
+      "name": "Jane Doe 2"
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "question": "Why do you want to work at our company?"
+    },
+    {
+      "id": 2,
+      "question": "What are your strengths?"
+    }
+  ],
+  "applications": [
+    {
+      "candidateId": 1,
+      "questionId": 1,
+      "response": "https://john-smith.response-1.mp4",
+      "comment": "Some comment for this one"
+    },
+    {
+      "candidateId": 1,
+      "questionId": 2,
+      "response": "https://john-smith.response-2.mp4",
+      "comment": ""
+    },
+    {
+      "candidateId": 2,
+      "questionId": 1,
+      "response": "https://jane-doe-1.response-1.mp4",
+      "comment": ""
+    },
+    {
+      "candidateId": 3,
+      "questionId": 2,
+      "response": "https://jane-doe-2.response-2.mp4",
+      "comment": ""
+    }
+  ]
+}
